@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+	<link rel="stylesheet" href="./src/style.css">
+	</head>
+
+<body>
+	<header class="container">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./src/img/Logo.svg" alt="main logo" />
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav m-auto d-flex flex-row gap-3 my-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+					<div class="d-flex gap-2">
+						<button class="button-trans">Login</button>
+						<button class="button-filled">Get Started</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section>
+		<div class="container hero">
+			<div class="row justify-content-between align-items-center hero-wrapper ">
+				<div class="hero-text col-lg-5 d-flex align-items-start flex-column ">
+					<h1>Let’s get fusely together</h1>
+					<p>
+						Outcome-centered product that reduce churn, optimize pricing, and
+						grow your subscription business end-to-end.
+					</p>
+					<button class="button-filled">Get Started</button>
+				</div>
+				<div class="col-lg-6">
+					<img src="./src/img/Heroimage.png" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<main>
+		<div class="container d-flex flex-column main-wrapper align-items-center ">
+				<div class="row justify-content-center gap-3">
+					<div class="col-lg=2 col-md-2 col-4">
+						<img src="./src/img/binator logo.svg" />
+					</div>
+					<div class="col-lg=2 col-md-2 col-4">
+						<img src="./src/img/buyme logo.svg" />
+					</div>
+					<div class="col-lg=2 col-md-2 col-4">
+						<img src="./src/img/loogipsum logo.svg" />
+					</div>
+					<div class="col-lg=2 col-md-2 col-4">
+						<img src="./src/img/umbrella logo.svg" />
+					</div>
+					<div class="col-lg=2 col-md-2 col-4">
+						<img src="./src/img/square logo.svg" />
+					</div>
+				</div>
+			<div class="row" id="main1">
+				<div class="col-12 col-lg-6  me-auto">
+					<img src="./src/img/examination.svg" />
+				</div>
+				<div class="col-12 col-lg-4 d-flex flex-column align-items-start main-text">
+					<h2>Detailed Examination</h2>
+					<p>
+						A daily dataset to keep you up to date on subscription market trends and what's happening in
+						your vertical.
+					</p>
+					<div class="learn-more-wrapper">
+						<a href="#Learn-More" class="learn-more">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="main2">
+				<div class="col-12 col-lg-6  me-auto">
+					<img src="./src/img/undraw_new_ideas_jdea 1.png" />
+				</div>
+				<div class="col-12 col-lg-4 d-flex flex-column align-items-start main-text">
+					<h2>Creative Solutions</h2>
+					<p>
+						Creativity is our second name. We're full of inventive ideas and we're happy to present them to
+						you.
+					</p>
+					<div class="learn-more-wrapper">
+						<a href="#Learn-More" class="learn-more">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="main3">
+				<div class="col-12 col-lg-6  me-auto">
+					<img src="./src/img/undraw_team_spirit_re_yl1v 1.png" />
+				</div>
+				<div class="col-12 col-lg-4 d-flex flex-column align-items-start main-text">
+					<h2>Professional Team</h2>
+					<p>
+						Well, obviously, we're professionals. Don't hesitate - get to know us better.
+					</p>
+					<div class="learn-more-wrapper">
+						<a href="#Learn-More" class="learn-more">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="plan-container d-flex align-items-center">
+				<h2 class=>Choose your plan</h2>
+				<div class="plan-wrapper">
+					<div class="white-plan d-flex flex-column align-items-center justify-content-center">
+						<h6>Starter</h6>
+						<h3>Free</h3>
+						<h6>Dashboard</h6>
+						<h6>Limited Support</h6>
+						<h6>Forever free</h6>
+						<button class="button-nav button-trans">Get Started</button>
+					</div>
+					<div class="purple-plan d-flex flex-column align-items-center justify-content-center">
+						<h6>Premium</h6>
+						<h3>$29<span>/month</span></h3>
+						<h6>Dashboard & Analysis</h6>
+						<h6>Premium Support</h6>
+						<h6>Tracking Service</h6>
+						<button class="button-nav button-trans">Get Started</button>
+					</div>
+					<div class="white-plan d-flex flex-column align-items-center justify-content-center">
+						<h6>Enterprise</h6>
+						<h3>$49<span>/month</span></h3>
+						<h6>All features in Premium</h6>
+						<h6>Realtime overview</h6>
+						<h6>Mobile app</h6>
+						<button class="button-nav button-trans">Get Started</button>
+					</div>
+				</div>
+			</div>
+			<div class="blogs d-flex flex-column align-items-center justify-content-center" id="blogs">
+				<div class="d-flex flex-row justify-content-between w-100">
+					<h2>From our blog</h2>
+					<button class="btn button-nav button-trans">View all</button>
+				</div>
+				<div class="blog-container d-flex flex-column align-items-start justify-content-center">
+					<div class="blog-wrapper">
+						<div>
+							<img src="./src/img/PEN.jpg" />
+						</div>
+						<div class="blog-text">
+							<h4>What’s Fusely?</h>
+							<p>
+								A brand new company, created for everyone. This article will help you understand what
+								"fusely" stands for.
+							</p>
+							<div class="learn-more-wrapper">
+								<a href="#Learn-More" class="learn-more">Read more</a>
+							</div>
+						</div>
+					</div>
+					<div class="blog-wrapper">
+						<div>
+							<img src="./src/img/Book.jpg" />
+						</div>
+						<div class="blog-text">
+							<h4>Introducing Fusely Engage</h>
+							<p>
+								We’re happy to announce the Fusely Engage. The first growth automation platform designed
+								for the digital interactions.
+							</p>
+							<div class="learn-more-wrapper">
+								<a href="#Learn-More" class="learn-more">Read more</a>
+							</div>
+						</div>
+					</div>
+					<div class="blog-wrapper">
+						<div>
+							<img src="./src/img/funji.jpg" />
+						</div>
+						<div class="blog-text">
+							<h4>Premium vs Enterprise plan</h4>
+							<p>
+								Let’s compare our most popular plans: Premium and Enterprise. This article will help you
+								decide which one will be better
+								for your needs.
+							</p>
+							<div class="learn-more-wrapper">
+								<a href="#Learn-More" class="learn-more">Read more</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+	</main>
+
+	<section class="interest-container d-flex flex-column align-items-center justify-content-center">
+		<div class="interest d-flex flex-row justify-content-center align-items-center flex-wrap">
+			<div>
+				<h3>Interested in
+					getting fusely?</h3>
+			</div>
+			<button class="button-filled">Get Started</button>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-wrapper d-flex flex-row flex-wrap justify-content-center">
+			<div class="footer-section">
+				<ul>
+					<li><h5>Product</h5></li>
+					<li><a>How it works</a></li>
+					<li>
+						<a>Features</a>
+					</li>
+					<li>
+						<a>Pricing</a>
+					</li>
+					<li>
+						<a>FAQ</a>
+					</li>
+					<li>
+						<a>Download</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<ul>
+					<li>
+						<h5>Company</h5>
+					</li>
+					<li>
+						<a>About</a>
+					</li>
+					<li>
+						<a>Blogs</a>
+					</li>
+					<li>
+						<a>Partnership</a>
+					</li>
+					<li>
+						<a>Terms of use</a>
+					</li>
+					<li>
+						<a>Privacy policy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<ul>
+					<li>
+						<h5>Support</h5>
+					</li>
+					<li>
+						<a>Help center</a>
+					</li>
+					<li>
+						<a>Contact us</a>
+					</li>
+
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li><h5>Get in touch</h5></li>
+					<li>
+						<div class="social-media">
+							<img src="./src/img/Social media icon.svg" alt="">
+							<img src="./src/img/brandico_twitter-bird.svg" alt="">
+							<img src="./src/img/linkedin.svg" alt="">
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
