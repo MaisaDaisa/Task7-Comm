@@ -113,7 +113,7 @@ a{
 }
 .plan-wrapper{
     display: flex;
-    width: 688px;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 45px;
