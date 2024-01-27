@@ -354,6 +354,9 @@ footer a{
     #main2, #main3{
         display: none;
     }
+    #main1{
+        flex-direction: row;
+    }
     main{
         margin-top: 47px;
     }
