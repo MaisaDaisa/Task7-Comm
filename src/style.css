@@ -114,6 +114,7 @@ a{
 .plan-wrapper{
     display: flex;
     width: 100%;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     gap: 45px;
